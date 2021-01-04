@@ -20,32 +20,46 @@
                 <div class="col-md-4">
                     <div class="card">
                         <h5 class="card-header">Microphone</h5>
-                        <img src="{{ asset('/images/microphone-icon.png') }}" class="card-img-top" alt="Microphone Icon">
+                        <img src="{{ asset('/images/microphone-icon.jpg') }}" class="card-img-top" alt="Microphone Icon">
                         <div class="card-body">
                             <p class="card-text">Press the Record button to test the microphone devices.</p>
-                            <a href="#" class="btn btn-primary">Record</a>
+                            <select class="form-control mb-3">
+                                <option>-- Select Input Device --</option>
+                            </select>
+                            <a href="#" class="btn btn-primary btn-block">Test</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
                         <h5 class="card-header">Camera</h5>
-                        <img src="{{ asset('/images/play-icon.png') }}" class="card-img-top" alt="Play Icon">
+                        <img src="{{ asset('images/play-icon.jpg') }}" class="card-img-top" alt="Play Icon">
                         <div class="card-body">
                             <p class="card-text">Press the Record button to test the camera devices.</p>
-                            <a href="#" class="btn btn-primary">Record</a>
+                            <select class="form-control mb-3">
+                                <option>-- Select Input Device --</option>
+                            </select>
+                            <a href="#" class="btn btn-primary btn-block">Test</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
                         <h5 class="card-header">Sound</h5>
-                        <img src="{{ asset('/images/audio-icon.png') }}" class="card-img-top" alt="Audio Icon">
+                        <img src="{{ asset('images/audio-icon.jpg') }}" class="card-img-top" alt="Audio Icon">
                         <div class="card-body">
                             <p class="card-text">Press the buttons below to test the speaker devices.</p>
-                            <a href="#" class="btn btn-primary">Left</a>
-                            <a href="#" class="btn btn-primary">Both</a>
-                            <a href="#" class="btn btn-primary">Right</a>
+                            <select class="form-control mb-3">
+                                <option>-- Select Input Device --</option>
+                            </select>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#" class="btn btn-primary btn-block">Left</a>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="btn btn-primary btn-block">Right</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
